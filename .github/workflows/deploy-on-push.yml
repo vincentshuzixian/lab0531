@@ -13,7 +13,7 @@ jobs:
            host: ${{secrets.HOST}}
            username: ${{secrets.SSH_USER_NAME}}
            port: ${{secrets.SSH_PORT}}
-           key: ${{secrets.SSH_KEY}}
+           password: ${{secrets.SSH_KEY}}
            source: "./lab.html/*"
            target: "/var/www/html"
            strip_components: 1
